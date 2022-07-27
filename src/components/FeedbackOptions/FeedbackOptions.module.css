@@ -1,0 +1,25 @@
+.option__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.option__item {
+  list-style-type: none;
+  margin-right: 10px;
+}
+.option__item:last-child {
+  margin-right: 0;
+}
+.option__btn {
+  width: 100px;
+  padding: 5px 5px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+  background-color: forestgreen;
+}
+.option__btn:hover {
+  background-color: coral;
+}

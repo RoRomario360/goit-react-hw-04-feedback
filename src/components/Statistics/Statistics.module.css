@@ -1,0 +1,22 @@
+.text {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.text__result {
+  margin: 0;
+  text-align: center;
+  width: 100px;
+  color: white;
+  background-color: rgb(58, 179, 227);
+  padding: 5px;
+  border-radius: 5px;
+}
+.list__item {
+  margin-bottom: 20px;
+  list-style: none;
+}
+.list {
+  margin: 0;
+}
