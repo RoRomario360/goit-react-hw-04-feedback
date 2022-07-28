@@ -6,6 +6,7 @@ export default function FeedbackOptions({ options, onBtnClick }) {
       {options.map(option => (
         <li className={css.option__item} key={option}>
           <button
+            type="button"
             className={css.option__btn}
             name={option}
             onClick={onBtnClick}
